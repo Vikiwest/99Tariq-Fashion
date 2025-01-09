@@ -272,7 +272,9 @@ nav a.active:hover {
 
 .view-product-image-description-container h3{
   font-size: 30px;
-  line-height: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 .view-more-price{
   font-size: 25px;
@@ -287,7 +289,9 @@ nav a.active:hover {
 }
 
 .description-content{
-  line-height: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .view-more-buy-now-btn{
@@ -388,6 +392,40 @@ footer p {
     font-size: 1.6rem;
   }
 
+
+  .product-image-flex-container{
+    width: 85%;
+  }
+
+  .product-image-flex-container img{
+    border-radius: 10px;
+    width: 600px;
+    height: 630px;
+  }
+  
+  
+  .view-product-image-description-container h3{
+    font-size: 30px;
+  }
+  .view-more-price{
+    font-size: 25px;
+  }
+  .available{
+    color: green;
+    font-size: 20px;
+   
+  }
+  .description{
+    font-size: 27px;
+  }
+  
+  .description-content{
+    font-size: 22px;
+  }
+
+
+
+
   .Whatsapp-icon {
     width: 40px;
   }
@@ -455,6 +493,41 @@ footer p {
   .shop-txt {
     font-size: 1.6rem;
   }
+
+
+
+  
+  .product-image-flex-container{
+    width: 90%;
+  }
+
+  .product-image-flex-container img{
+    border-radius: 10px;
+    width: 350px;
+    height: 390px;
+  }
+  
+  
+  .view-product-image-description-container h3{
+    font-size: 25px;
+  }
+  .view-more-price{
+    font-size: 20px;
+  }
+  .available{
+    color: green;
+    font-size: 20px;
+   
+  }
+  .description{
+    font-size: 20px;
+  }
+  
+  .description-content{
+    font-size: 17px;
+  }
+
+
 
   .Whatsapp-icon {
     width: 40px;
@@ -524,6 +597,38 @@ footer p {
   .shop-txt {
     font-size: 1.5rem;
   }
+
+  .product-image-flex-container{
+    width: 90%;
+  }
+
+  .product-image-flex-container img{
+    border-radius: 10px;
+    width: 300px;
+    height: 340px;
+  }
+  
+  
+  .view-product-image-description-container h3{
+    font-size: 20px;
+  }
+  .view-more-price{
+    font-size: 17px;
+  }
+  .available{
+    color: green;
+    font-size: 17px;
+   
+  }
+  .description{
+    font-size: 20px;
+  }
+  
+  .description-content{
+    font-size: 15px;
+  }
+
+
 
   .Whatsapp-icon {
     width: 35px;
@@ -598,19 +703,19 @@ footer p {
   }
 
   .product-image-flex-container{
-    width: 100%;
+    width: 90%;
+    margin: auto;
   }
 
   .product-image-flex-container img{
     border-radius: 10px;
-    width: 250px;
-    height: 280px;
+    width: 270px;
+    height: 290px;
   }
   
   
   .view-product-image-description-container h3{
     font-size: 18px;
-    /* line-height: 0; */
   }
   .view-more-price{
     font-size: 15px;
@@ -626,7 +731,6 @@ footer p {
   
   .description-content{
     font-size: 13px;
-    line-height: 0.4;
   }
 
 
