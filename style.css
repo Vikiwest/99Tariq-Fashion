@@ -91,13 +91,12 @@ nav a.active:hover {
   
   font-size: 29px;
   font-family: "Charm", serif;
-    /* font-weight: 400; */
   border-right: 3px solid;
   
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
-  /* animation: typing 7s steps(21) infinite, cursor 0.4s step-end infinite alternate; */
+  animation: typing 7s steps(21) infinite, cursor 0.4s step-end infinite alternate;
 }
 
 @keyframes typing {
@@ -107,9 +106,9 @@ nav a.active:hover {
   50% {
     width: 100%;
   }
-  /* 100% {
+  100% {
     width: 0;
-  } */
+  }
 }
 
 .hero-body {
@@ -278,7 +277,6 @@ nav a.active:hover {
 .view-product-container{
   padding-top: 90px;
   width: 90%; 
-  /* justify-content: center; */
   margin: auto;
 
 }
