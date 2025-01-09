@@ -242,7 +242,7 @@ nav a.active:hover {
 .view-product-container{
   padding-top: 90px;
   width: 90%; 
-  justify-content: center;
+  /* justify-content: center; */
   margin: auto;
 
 }
@@ -256,7 +256,7 @@ nav a.active:hover {
 }
 
 .product-image-flex-container{
-  width: 90%;
+  width: 80%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -265,6 +265,8 @@ nav a.active:hover {
 
 .product-image-flex-container img{
   border-radius: 10px;
+  width: 700px;
+  height: 700px;
 }
 
 
@@ -594,6 +596,39 @@ footer p {
   .shop-txt {
     font-size: 1.4rem;
   }
+
+  .product-image-flex-container{
+    width: 100%;
+  }
+
+  .product-image-flex-container img{
+    border-radius: 10px;
+    width: 250px;
+    height: 280px;
+  }
+  
+  
+  .view-product-image-description-container h3{
+    font-size: 18px;
+    /* line-height: 0; */
+  }
+  .view-more-price{
+    font-size: 15px;
+  }
+  .available{
+    color: green;
+    font-size: 15px;
+   
+  }
+  .description{
+    font-size: 18px;
+  }
+  
+  .description-content{
+    font-size: 13px;
+    line-height: 0.4;
+  }
+
 
   .Whatsapp-icon {
     width: 35px;
