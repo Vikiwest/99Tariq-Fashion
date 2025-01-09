@@ -122,6 +122,7 @@ nav a.active:hover {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .product {
   display: flex;
   flex-direction: column;
@@ -315,7 +316,7 @@ footer {
   color: #fff;
 
   padding: 15px 0;
-  margin-top: 270px;
+  margin-top: 260px;
   margin-bottom: 0px;
 }
 
