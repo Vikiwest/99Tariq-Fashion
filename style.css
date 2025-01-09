@@ -450,15 +450,32 @@ footer p {
 
 @media only screen and (max-width: 650px) {
 
+  .product-image-flex-container{
+    width: 85%;
+  }
   .product-image-flex-container img{
     border-radius: 10px;
-    width: 550px;
+    width: 500px;
     height: 500px;
   }
   
 }
 
 
+@media only screen and (max-width: 520px) {
+
+
+  .product-image-flex-container{
+    width: 87%;
+  }
+  .product-image-flex-container img{
+    border-radius: 10px;
+    width: 450px;
+    height: 420px;
+  }
+  
+
+}
 @media only screen and (max-width: 425px) {
   header h1 {
     font-size: 1.5rem;
@@ -716,7 +733,7 @@ footer p {
   }
 
   .product-image-flex-container{
-    width: 90%;
+    width: 95%;
     margin: auto;
   }
 
