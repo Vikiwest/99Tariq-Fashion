@@ -2,7 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap");
 
-
 /* Loading screen styles */
 #loading-screen {
   position: fixed;
@@ -27,18 +26,31 @@
   width: 20px;
   height: 20px;
   margin: 0 5px;
-  background-color: #3498db;
+  background-color: black;
   border-radius: 50%;
   animation: pulse 1.5s infinite ease-in-out;
 }
 
-.dot:nth-child(1) { animation-delay: 0s; }
-.dot:nth-child(2) { animation-delay: 0.2s; }
-.dot:nth-child(3) { animation-delay: 0.4s; }
+.dot:nth-child(1) {
+  animation-delay: 0s;
+}
+.dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
 
 @keyframes pulse {
-  0%, 100% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.5); opacity: 0.5; }
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.5;
+  }
 }
 
 /* Hide main content initially */
@@ -47,7 +59,6 @@
   width: 100%;
   height: 100%;
 }
-
 
 html {
   scroll-behavior: smooth;
@@ -109,7 +120,7 @@ nav {
 }
 
 nav a {
-  font-size: 20px;
+  font-size: 2rem;
   margin-left: 15px;
   color: black;
   transition: color 0.3s;
@@ -133,7 +144,7 @@ nav a.active:hover {
 /* Hero Section Styling */
 
 #welcomeMessage {
-  font-size: 29px;
+  font-size: 49px;
   font-family: "Charm", serif;
   border-right: 3px solid;
 
@@ -167,19 +178,27 @@ nav a.active:hover {
 .hero-background {
   width: 100%;
 
-  height: 250px;
+  height: 50vh;
   opacity: 0.8;
   object-fit: cover;
 }
 .hero-wrapper {
   border: 1px solid;
-  padding: 0 200px 0 200px;
+  padding: 60px 500px 60px 500px;
 
   position: absolute;
-  top: 129px;
+  top: 290px;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+.F {
+  font-size: 100px;
+}
+
+.L {
+  font-size: 100px;
 }
 .hero-wrapper h2 {
   text-align: center;
@@ -276,7 +295,8 @@ nav a.active:hover {
 }
 
 .shop-txt {
-  padding-top: 15px;
+  padding-top: 55px;
+  font-size: 2rem;
   width: 90%;
   margin: auto;
 }
@@ -303,6 +323,7 @@ nav a.active:hover {
 /* ABOUT PAGE STYLING */
 .about-writeup {
   width: 90%;
+  font-size: 35px;
   margin: auto;
 }
 /* END */
@@ -332,8 +353,8 @@ nav a.active:hover {
 
 .product-image-flex-container img {
   border-radius: 10px;
-  width: 700px;
-  height: 700px;
+  width: 900px;
+  height: 1000px;
 }
 
 .view-product-image-description-container h3 {
@@ -431,7 +452,7 @@ footer p {
     font-size: 1.5rem;
   }
   nav a {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
 
   #welcomeMessage {
@@ -440,6 +461,7 @@ footer p {
 
   .hero-wrapper {
     padding: 0px 150px 0px 150px;
+    top: 205px;
   }
 
   .new-arivals-txt h2 {
@@ -478,7 +500,7 @@ footer p {
     border-radius: 5px;
   }
   .shop-txt {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 
   .product-image-flex-container {
@@ -509,6 +531,12 @@ footer p {
     font-size: 22px;
   }
 
+  .about-writeup {
+    font-size: 25px;
+    height: 100vh;
+    margin: auto;
+  }
+
   .Whatsapp-icon {
     width: 40px;
   }
@@ -531,14 +559,13 @@ footer p {
 
 @media only screen and (max-width: 650px) {
   #welcomeMessage {
-    font-size: 21px;
+    font-size: 25px;
   }
 
   .hero-wrapper {
-    top: 125px;
-    padding: 0px 100px 0px 100px;
+    padding: 0px 110px 0px 110px;
+    top: 205px;
   }
-
   .product-image-flex-container {
     width: 85%;
   }
@@ -547,47 +574,35 @@ footer p {
     width: 500px;
     height: 500px;
   }
+  .about-writeup {
+    font-size: 25px;
+    height: 110vh;
+    margin: auto;
+  }
 }
 
 @media only screen and (max-width: 520px) {
-  #welcomeMessage {
-    font-size: 21px;
-  }
-
-  .hero-wrapper {
-    top: 125px;
-    padding: 0px 90px 0px 90px;
-  }
-
-  .product-image-flex-container {
-    width: 87%;
-  }
-  .product-image-flex-container img {
-    border-radius: 10px;
-    width: 450px;
-    height: 420px;
-  }
-}
-@media only screen and (max-width: 425px) {
   header h1 {
     font-size: 1.5rem;
   }
   nav a {
     font-size: 1.1rem;
   }
-
   #welcomeMessage {
-    font-size: 21px;
+    font-size: 25px;
   }
 
   .hero-wrapper {
-    top: 125px;
-    padding: 0px 30px 0px 30px;
+    padding: 0px 150px 0px 150px;
+    top: 205px;
   }
 
+  .fashion {
+    font-size: 0.5rem;
+  }
   .new-arivals-txt h2 {
     margin-top: 20px;
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .product {
     width: 170px;
@@ -622,7 +637,124 @@ footer p {
     border-radius: 5px;
   }
   .shop-txt {
-    font-size: 1.6rem;
+    font-size: 1.1rem;
+  }
+  .product-image-flex-container {
+    width: 87%;
+  }
+  .product-image-flex-container img {
+    border-radius: 10px;
+    width: 450px;
+    height: 420px;
+  }
+
+  .about-writeup {
+    font-size: 25px;
+    height: 120vh;
+    margin: auto;
+
+    .view-product-image-description-container h3 {
+      font-size: 25px;
+    }
+    .view-more-price {
+      font-size: 20px;
+    }
+    .available {
+      color: green;
+      font-size: 20px;
+    }
+    .description {
+      font-size: 20px;
+    }
+
+    .description-content {
+      font-size: 17px;
+    }
+
+    .about-writeup {
+      font-size: 20px;
+      height: 90vh;
+      margin: auto;
+    }
+
+    .Whatsapp-icon {
+      width: 40px;
+    }
+
+    .ig-icon {
+      width: 30px;
+    }
+
+    .location p {
+      font-size: 1.05rem;
+    }
+
+    .footer-nav a {
+      font-size: 0.9rem;
+    }
+    .footer-centering-section p {
+      font-size: 0.9rem;
+    }
+  }
+}
+@media only screen and (max-width: 425px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+  nav a {
+    font-size: 1.1rem;
+  }
+
+  #welcomeMessage {
+    font-size: 21px;
+  }
+
+  .hero-wrapper {
+    top: 210px;
+    padding: 0px 70px 0px 70px;
+  }
+
+  .fashion {
+    font-size: 0.5rem;
+  }
+  .new-arivals-txt h2 {
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  .product {
+    width: 170px;
+    height: auto;
+    padding: 5px;
+    margin: 8px;
+  }
+
+  .product-info {
+    padding: 4px;
+    text-align: center;
+  }
+  .product-info h3 {
+    font-size: 0.9rem;
+    margin: 10px 0;
+  }
+
+  .product-info .price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: green;
+  }
+
+  .product-btn-white {
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  .product-btn-black {
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .shop-txt {
+    font-size: 1.1rem;
   }
 
   .product-image-flex-container {
@@ -651,6 +783,12 @@ footer p {
 
   .description-content {
     font-size: 17px;
+  }
+
+  .about-writeup {
+    font-size: 20px;
+    height: 90vh;
+    margin: auto;
   }
 
   .Whatsapp-icon {
@@ -687,8 +825,8 @@ footer p {
   }
 
   .hero-wrapper {
-    top: 125px;
-    padding: 0px 30px 0px 30px;
+    top: 205px;
+    padding: 0px 50px 0px 50px;
   }
 
   .new-arivals-txt h2 {
@@ -728,7 +866,7 @@ footer p {
     border-radius: 5px;
   }
   .shop-txt {
-    font-size: 1.5rem;
+    font-size: 15px;
   }
 
   .product-image-flex-container {
@@ -757,6 +895,12 @@ footer p {
 
   .description-content {
     font-size: 15px;
+  }
+
+  .about-writeup {
+    font-size: 19px;
+    height: 90vh;
+    margin: auto;
   }
 
   .Whatsapp-icon {
@@ -793,6 +937,18 @@ footer p {
 
   .hero-wrapper {
     padding: 5px 30px 5px 30px;
+    top: 165px;
+  }
+  .F {
+    font-size: 70px;
+  }
+
+  .L {
+    font-size: 70px;
+  }
+
+  .hero-background {
+    height: 40vh;
   }
 
   .new-arivals-txt h2 {
@@ -834,7 +990,7 @@ footer p {
   }
 
   .shop-txt {
-    font-size: 1.4rem;
+    font-size: 15px;
   }
 
   .product-image-flex-container {
@@ -864,6 +1020,12 @@ footer p {
 
   .description-content {
     font-size: 13px;
+  }
+
+  .about-writeup {
+    font-size: 18px;
+    height: 90vh;
+    margin: auto;
   }
 
   .Whatsapp-icon {
