@@ -44,6 +44,7 @@
 /* Hide main content initially */
 #main-content {
   display: none;
+  width: 100%;
 }
 
 
