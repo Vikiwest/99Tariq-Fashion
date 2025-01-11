@@ -344,7 +344,7 @@ nav a.active:hover {
 }
 
 .product-image-flex-container {
-  width: 80%;
+  width: 90%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -353,7 +353,7 @@ nav a.active:hover {
 
 .product-image-flex-container img {
   border-radius: 10px;
-  width: 800px;
+  width: 700px;
   height: 900px;
 }
 
