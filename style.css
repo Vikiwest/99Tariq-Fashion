@@ -831,6 +831,10 @@ footer p {
     padding: 0px 50px 0px 50px;
   }
 
+  .hero-wrapper h2{
+    font-size: 2.5rem;
+  }
+
   .new-arivals-txt h2 {
     margin-top: 20px;
     font-size: 1.2rem;
