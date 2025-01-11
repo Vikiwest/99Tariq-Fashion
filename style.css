@@ -353,8 +353,8 @@ nav a.active:hover {
 
 .product-image-flex-container img {
   border-radius: 10px;
-  width: 700px;
-  height: 900px;
+  width: 650px;
+  height: 700px;
 }
 
 .view-product-image-description-container h3 {
@@ -509,7 +509,7 @@ footer p {
 
   .product-image-flex-container img {
     border-radius: 10px;
-    width: 600px;
+    width: 580px;
     height: 630px;
   }
 
