@@ -1,18 +1,23 @@
-// //Hide Header
-// const header = document.getElementById("mainHeader");
-// let lastScrollY = window.scrollY;
+// Display loading screen on page load
+window.addEventListener("load", function () {
+  const loadingScreen = document.getElementById("loading-screen");
+  const mainContent = document.getElementById("main-content");
+  setTimeout(() => {
+    loadingScreen.style.display = "none";
+    mainContent.style.display = "block";
+  }, 1500); // Loading screen will stay visible for 1.5 seconds
+});
 
-// window.addEventListener("scroll", () => {
-//   if (window.scrollY > lastScrollY) {
-//     // Scrolling down
-//     header.classList.add("hidden");
-//   } else {
-//     // Scrolling up
-//     header.classList.remove("hidden");
-//   }
-//   lastScrollY = window.scrollY;
-// });
-
+// Show loading screen when navigating to another page
+document.querySelectorAll("a").forEach((link) => {
+  link.addEventListener("click", function (event) {
+    event.preventDefault(); // Prevent the default navigation temporarily
+    document.getElementById("loading-screen").style.display = "flex";
+    setTimeout(() => {
+      window.location.href = this.href; // Redirect after delay
+    }, 1000); // Adjust delay as needed
+  });
+});
 
 //ProductName and Image linked to whatsapp
 function buyNow(productName) {
@@ -27,8 +32,6 @@ function buyNow(productName) {
   var whatsappUrl = "https://wa.me/" + phoneNumber + "?text=" + message;
   window.open(whatsappUrl, "_blank");
 }
-
-
 
 //CURRENT PAGE INDICATOR
 document.addEventListener("DOMContentLoaded", function () {
