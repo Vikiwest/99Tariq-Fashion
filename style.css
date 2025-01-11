@@ -162,9 +162,9 @@ nav a.active:hover {
   50% {
     width: 100%;
   }
-  100% {
+  /* 100% {
     width: 0;
-  }
+  } */
 }
 
 .hero-body {
