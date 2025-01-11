@@ -938,6 +938,10 @@ footer p {
     padding: 5px 30px 5px 30px;
     top: 165px;
   }
+
+  .hero-wrapper h2{
+    font-size: 2rem;
+  }
   .F {
     font-size: 70px;
   }
@@ -948,11 +952,12 @@ footer p {
 
   .hero-background {
     height: 40vh;
+  
   }
 
   .new-arivals-txt h2 {
     margin-top: 20px;
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
   .product {
     width: 130px;
