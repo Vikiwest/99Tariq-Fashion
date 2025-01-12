@@ -147,13 +147,20 @@ nav a.active:hover {
   font-size: 49px;
   font-family: "Charm", serif;
   border-right: 3px solid;
-
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
   animation: typing 7s steps(21) infinite,
     cursor 0.4s step-end infinite alternate;
 }
+
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
 
 @keyframes typing {
   0% {
