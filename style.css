@@ -187,7 +187,7 @@ nav a.active:hover {
   padding: 0px 200px 0px 200px;
 
   position: absolute;
-  top: 290px;
+  top: 280px;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -459,9 +459,12 @@ footer p {
     font-size: 25px;
   }
 
+  .hero-background{
+    height: 45vh;
+  }
   .hero-wrapper {
     padding: 0px 150px 0px 150px;
-    top: 205px;
+    top: 240px;
   }
 
   .new-arivals-txt h2 {
@@ -562,9 +565,12 @@ footer p {
     font-size: 25px;
   }
 
+  .hero-background{
+    height: 50vh;
+  }
   .hero-wrapper {
     padding: 0px 120px 0px 120px;
-    top: 205px;
+    top: 207px;
   }
   .product-image-flex-container {
     width: 85%;
@@ -592,6 +598,9 @@ footer p {
     font-size: 25px;
   }
 
+  .hero-background{
+    height: 50vh;
+  }
   .hero-wrapper {
     padding: 0px 100px 0px 100px;
     top: 205px;
@@ -708,14 +717,15 @@ footer p {
     font-size: 21px;
   }
 
+  .hero-background{
+    height: 50vh;
+  }
+
   .hero-wrapper {
-    top: 210px;
+    top: 200px;
     padding: 0px 70px 0px 70px;
   }
 
-  /* .hero-background{
-    height: 55vh;
-  } */
   .fashion {
     font-size: 0.5rem;
   }
@@ -826,8 +836,12 @@ footer p {
     font-size: 21px;
   }
 
+
+  .hero-background{
+    height: 47vh;
+  }
   .hero-wrapper {
-    top: 225px;
+    top: 195px;
     padding: 0px 50px 0px 50px;
   }
 
@@ -941,9 +955,12 @@ footer p {
     font-size: 21px;
   }
 
+  .hero-background{
+    height: 36vh;
+  }
   .hero-wrapper {
     padding: 0px 30px 0px 30px;
-    top: 165px;
+    top: 150px;
   }
 
   .hero-wrapper h2 {
@@ -957,9 +974,7 @@ footer p {
     font-size: 70px;
   }
 
-  .hero-background {
-    height: 40vh;
-  }
+
 
   .new-arivals-txt h2 {
     margin-top: 20px;
