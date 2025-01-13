@@ -177,17 +177,29 @@ nav a.active:hover {
 .hero-body {
   position: relative;
   top: 60px;
+
 }
 .hero-section {
   text-align: center;
   overflow: hidden;
+
 }
 .hero-background {
   width: 100%;
-
   height: 55vh;
   opacity: 0.8;
   object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  animation: slideshow 25s infinite;
+}
+
+
+@keyframes slideshow {
+  0% { background-image: url('assets/hero-background.png'); }
+  33% { background-image: url('assets/cccc.png'); }
+  66% { background-image: url('assets/BASQUIAT\ Inspired\ Washed\ Tee2.jpg'); }
+  100% { background-image: url('assets/99tariqs_Brooklyn\ Est.\ 1631\ New\ York\ Cap.jpg'); }
 }
 .hero-wrapper {
   border: 1px solid;
