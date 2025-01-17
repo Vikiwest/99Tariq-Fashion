@@ -63,6 +63,50 @@
 html {
   scroll-behavior: smooth;
 }
+
+#themeToggle {
+  border: none;
+  background: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#themeIcon {
+  color: black; /* Black icon for light mode */
+}
+
+
+.dark-theme {
+  background-color: #333;
+  color: white;
+}
+
+.dark-theme header{
+  background-color: black;
+}
+
+
+.dark-theme .product{
+  background-color: black;
+}
+
+.dark-theme h1{
+  color: white;
+
+}
+.dark-theme a {
+  color: white;
+}
+
+.dark-theme  h3 {
+  color: white;
+}
+
+.dark-theme #themeIcon {
+  color: white; /* White icon for dark mode */
+}
+
+
 body {
   font-family: "Roboto", serif;
   margin: 0;
@@ -95,7 +139,10 @@ header {
 .header-logo {
   width: 90%;
   margin: auto;
+  display: flex;
+  justify-content: space-between;
 }
+
 
 a {
   text-decoration: none;

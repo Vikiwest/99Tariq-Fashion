@@ -1,3 +1,43 @@
+function toggleTheme() {
+  const body = document.body;
+  const icon = document.getElementById('themeIcon');
+
+  // Toggle the theme class on the body
+  body.classList.toggle('dark-theme');
+  
+  // Save the theme preference
+  const theme = body.classList.contains('dark-theme') ? 'dark' : 'light';
+  localStorage.setItem('theme', theme);
+
+  // Change the icon color based on the theme
+  if (theme === 'dark') {
+      icon.classList.replace('fa-moon', 'fa-sun'); // Sun for dark mode
+  } else {
+      icon.classList.replace('fa-sun', 'fa-moon'); // Moon for light mode
+  }
+}
+
+// Apply the saved theme and icon on page load
+function applySavedTheme() {
+  const savedTheme = localStorage.getItem('theme');
+  const icon = document.getElementById('themeIcon');
+
+  if (savedTheme === 'dark') {
+      document.body.classList.add('dark-theme');
+      icon.classList.replace('fa-moon', 'fa-sun'); // Sun for dark mode
+  } else {
+      document.body.classList.remove('dark-theme');
+      icon.classList.replace('fa-sun', 'fa-moon'); // Moon for light mode
+  }
+}
+
+document.addEventListener('DOMContentLoaded', applySavedTheme);
+
+
+
+
+
+
 // Display loading screen on page load
 window.addEventListener("load", function () {
   const loadingScreen = document.getElementById("loading-screen");
