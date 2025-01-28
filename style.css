@@ -336,7 +336,7 @@ nav a.active:hover {
 .product-btn-white {
   background-color: white;
   border: 1px solid;
-  padding: 8px 15px;
+  padding: 12px 95px;
   border-radius: 5px;
   margin-bottom: 0;
 }
@@ -347,7 +347,7 @@ nav a.active:hover {
   color: white;
 }
 
-.product-btn-black {
+/* .product-btn-black {
   background-color: black;
   border: 1px solid black;
   color: white;
@@ -358,7 +358,7 @@ nav a.active:hover {
   cursor: pointer;
   background-color: white;
   color: black;
-}
+} */
 
 .shop-txt {
   padding-top: 55px;
@@ -559,15 +559,15 @@ footer p {
   }
 
   .product-btn-white {
-    padding: 5px 10px;
+    padding: 8px 70px;
     border-radius: 5px;
   }
 
-  .product-btn-black {
+  /* .product-btn-black {
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
-  }
+  } */
   .shop-txt {
     font-size: 1.5rem;
   }
@@ -702,15 +702,15 @@ footer p {
   }
 
   .product-btn-white {
-    padding: 5px 10px;
+    padding: 8px 55px;
     border-radius: 5px;
   }
 
-  .product-btn-black {
+  /* .product-btn-black {
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
-  }
+  } */
   .shop-txt {
     font-size: 1.1rem;
   }
@@ -822,15 +822,15 @@ footer p {
   }
 
   .product-btn-white {
-    padding: 5px 10px;
+    padding: 8px 55px;
     border-radius: 5px;
   }
 
-  .product-btn-black {
+  /* .product-btn-black {
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
-  }
+  } */
   .shop-txt {
     font-size: 1.1rem;
   }
@@ -942,15 +942,15 @@ footer p {
   }
 
   .product-btn-white {
-    padding: 5px 10px;
+    padding: 8px 50px;
     border-radius: 5px;
   }
 
-  .product-btn-black {
+  /* .product-btn-black {
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
-  }
+  } */
   .shop-txt {
     font-size: 15px;
   }
@@ -1068,17 +1068,17 @@ footer p {
   }
 
   .product-btn-white {
-    padding: 5px 9.5px;
+    padding: 8px 45px;
     border-radius: 5px;
     font-size: 0.7rem;
   }
 
-  .product-btn-black {
+  /* .product-btn-black {
     color: white;
     padding: 5px 9.5px;
     border-radius: 5px;
     font-size: 0.7rem;
-  }
+  } */
 
   .shop-txt {
     font-size: 15px;
